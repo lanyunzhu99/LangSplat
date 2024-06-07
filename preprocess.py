@@ -354,6 +354,7 @@ if __name__ == '__main__':
 
     dataset_path = args.dataset_path
     sam_ckpt_path = args.sam_ckpt_path
+    sam_ckpt_path = '/mnt/1TBSSD/lanyunz/pretrain/sam_vit_h.pth'
     img_folder = os.path.join(dataset_path, 'images')
     data_list = os.listdir(img_folder)
     data_list.sort()
